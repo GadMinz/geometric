@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 400px;
+  width: 400px;
+  background: #d9d9d9;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-big {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: #248456;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: -107px;
+  left: -94px;
+  z-index: 0;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 108px solid #ce3607;
+  border-left: 100px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rectangle {
+  position: absolute;
+  width: 303px;
+  height: 47px;
+  background: #1c3f9b;
+  -ms-transform: rotate(47deg);
+  transform: rotate(47deg);
+  top: 150px;
+  left: 45px;
+  z-index: 2;
+}
+
+.circle-small {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #0ca565;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 136px;
+  right: 76px;
+  z-index: 3;
+}
+
+.squircle {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  background-color: #920fbf;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  left: 50px;
+  bottom: 52px;
+  z-index: 3;
+}
